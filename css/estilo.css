@@ -1,0 +1,39 @@
+/***********MENU****************/
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*****SLIDER IMAGENES *********/
+.carousel-inner{
+    max-height: 39rem;
+}
+
+@media (max-width:768px){
+    #intro, #equipo {
+        width: 90%;
+    }
+
+    #equipo p {
+        display: none;
+    }
+    .servicio-fila{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+#contenedor-formulario{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    background-color: #fbfafa;
+    max-width: 500px;
+}
